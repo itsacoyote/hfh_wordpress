@@ -40,7 +40,8 @@ NAVIGATION STYLES
 *********************/
 
 .nav {
-	background: #eee;
+  font-family: $sans-serif;
+  font-weight: bold;
 	border: 0;
 
 	li {
@@ -55,8 +56,7 @@ NAVIGATION STYLES
 			has the possibility of being a mobile device.
 			*/
 			&:hover, &:focus {
-				background-color: #dedede;
-
+				border-bottom: 3px solid $hfh-green;
 			}
 		}
 
@@ -82,7 +82,7 @@ NAVIGATION STYLES
 					border-right: 0;
 					display: block;
 					width: 180px;
-					border-bottom: 1px solid #ccc;
+					border-bottom: 3px solid $hfh-blue;
 
 					&:hover,
 					&:focus {}
@@ -111,7 +111,9 @@ NAVIGATION STYLES
 			li.current-menu-item,
 			li.current_page_item,
 			li.current-page-ancestor {
-				a {}
+				a {
+				  border-bottom: 3px solid $hfh-green;
+				}
 			}
 		}
 

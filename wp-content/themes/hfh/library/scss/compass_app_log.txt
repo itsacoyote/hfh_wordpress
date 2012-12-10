@@ -1,0 +1,58 @@
+2012-12-10 14:56:11 overwrite ../css/ie.css 
+2012-12-10 14:56:13 overwrite ../css/style.css 
+2012-12-10 14:56:35 identical ../css/ie.css 
+2012-12-10 14:56:36 identical ../css/style.css 
+2012-12-10 14:56:58 identical ../css/ie.css 
+2012-12-10 14:56:59 identical ../css/style.css 
+2012-12-10 15:00:56 overwrite ../css/style.css 
+2012-12-10 15:01:55 identical ../css/ie.css 
+2012-12-10 15:01:56 identical ../css/style.css 
+2012-12-10 15:02:23 overwrite ../css/style.css 
+2012-12-10 15:02:29 overwrite ../css/style.css 
+2012-12-10 15:03:01 overwrite ../css/style.css 
+2012-12-10 15:04:00 overwrite ../css/style.css 
+2012-12-10 15:04:30 overwrite ../css/style.css 
+2012-12-10 15:04:59 overwrite ../css/style.css 
+2012-12-10 15:05:11 overwrite ../css/style.css 
+2012-12-10 15:06:47 overwrite ../css/style.css 
+2012-12-10 15:06:59 overwrite ../css/style.css 
+2012-12-10 15:10:29 overwrite ../css/ie.css 
+2012-12-10 15:10:30 overwrite ../css/style.css 
+2012-12-10 15:11:00 overwrite ../css/ie.css 
+2012-12-10 15:11:01 overwrite ../css/style.css 
+2012-12-10 15:12:03 overwrite ../css/ie.css 
+2012-12-10 15:12:04 overwrite ../css/style.css 
+2012-12-10 15:12:23 overwrite ../css/ie.css 
+2012-12-10 15:12:23 overwrite ../css/style.css 
+2012-12-10 15:13:59     error ie.scss (Line 115 of _768up.scss: Invalid CSS after "...tom: 3px solid ": expected ";", was "#hfh-green;")
+2012-12-10 15:13:59 overwrite ../css/ie.css 
+2012-12-10 15:14:03     error ie.scss (Line 115 of _768up.scss: Invalid CSS after "...tom: 3px solid ": expected ";", was "#hfh-green;")
+2012-12-10 15:14:03 overwrite ../css/ie.css 
+2012-12-10 15:14:05     error style.scss (Line 115 of _768up.scss: Invalid CSS after "...tom: 3px solid ": expected ";", was "#hfh-green;")
+2012-12-10 15:14:05 overwrite ../css/style.css 
+2012-12-10 15:14:15 overwrite ../css/ie.css 
+2012-12-10 15:14:16 overwrite ../css/style.css 
+2012-12-10 15:14:46 identical ../css/ie.css 
+2012-12-10 15:14:46 identical ../css/style.css 
+2012-12-10 15:15:40 overwrite ../css/style.css 
+2012-12-10 15:15:55     error style.scss (Line 181 of _base.scss: Invalid CSS after "...tom: 3px solid ": expected ";", was "#hfh-blue;")
+2012-12-10 15:15:55 overwrite ../css/style.css 
+2012-12-10 15:15:58     error style.scss (Line 181 of _base.scss: Invalid CSS after "...tom: 3px solid ": expected ";", was "#hfh-blue;")
+2012-12-10 15:15:58 overwrite ../css/style.css 
+2012-12-10 15:16:04 overwrite ../css/style.css 
+2012-12-10 15:16:29 overwrite ../css/style.css 
+2012-12-10 15:17:46     error ie.scss (Line 66 of _mixins.scss: Undefined variable: "$hfh-green".)
+2012-12-10 15:17:46 overwrite ../css/ie.css 
+2012-12-10 15:17:47     error style.scss (Line 66 of _mixins.scss: Undefined variable: "$hfh-green".)
+2012-12-10 15:17:47 overwrite ../css/style.css 
+2012-12-10 15:18:11 overwrite ../css/ie.css 
+2012-12-10 15:18:11 overwrite ../css/style.css 
+2012-12-10 15:19:45 overwrite ../css/style.css 
+2012-12-10 15:19:58 overwrite ../css/style.css 
+2012-12-10 15:20:25 overwrite ../css/style.css 
+2012-12-10 15:22:41 overwrite ../css/style.css 
+2012-12-10 15:22:47 overwrite ../css/style.css 
+2012-12-10 15:23:48 overwrite ../css/style.css 
+2012-12-10 15:31:27 overwrite ../css/ie.css 
+2012-12-10 15:31:27 overwrite ../css/style.css 
+2012-12-10 15:33:01 overwrite ../css/style.css 

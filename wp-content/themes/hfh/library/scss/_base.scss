@@ -19,7 +19,8 @@ body {
 	font-family: $serif;
 	font-size: 100%;
 	line-height: 1.5;
-	color: #565656;
+	color: $white;
+	background: $navy-blue;
 }
 
 /********************
@@ -150,9 +151,17 @@ h5, .h5 {
 HEADER SYTLES
 *********************/
 
-.header {}
+.header {
+  background: $hfh-blue;
+}
 
-	#logo {}
+	#logo {
+	  font-size: 0px;
+	  line-height: 0px;
+	  background: url(../images/hiring-for-hope-logo.png) top left no-repeat;
+	  width: 267px;
+	  height: 120px;
+	}
 
 /*********************
 NAVIGATION STYLES
@@ -167,17 +176,15 @@ and more scalable.
 */
 
 .nav {
-	border: 1px solid #ccc;
-	border-bottom: 0;
 
 	li {
 
 		a {
 			display: block;
 			text-decoration: none;
-			padding: 10px 10px;
-			background-color: #eee;
-			border-bottom: 1px solid #ccc;
+			padding: 5px 15px 0px 15px;
+			color: #fff;
+			border-bottom: 3px solid $hfh-blue;
 
 			/*
 			remember this is for mobile ONLY, so there's no need
@@ -231,7 +238,9 @@ and more scalable.
 	li.current_page_item,
 	li.current-page-ancestor {
 
-		a {}
+		a {
+		  border-bottom: 3px solid $hfh-green;
+		}
 
 	}  /* end current highlighters */
 
@@ -275,7 +284,7 @@ POSTS & CONTENT STYLES
 
 		/* post meta */
 		.byline {
-			color: #999;
+			color: $neutral-tan;
 
 			time {}
 		}
