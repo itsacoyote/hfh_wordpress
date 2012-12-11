@@ -69,23 +69,27 @@ NAVIGATION STYLES
 		ul.sub-menu,
 		ul.children {
 			width: 200px;
-			border: 1px solid #ccc;
+			border: 1px solid $navy-blue;
 			border-top: 0;
 			position: absolute;
 			display: none;
 			z-index: 8999;
+			margin: 0;
+			background: $hfh-blue;
 
 			li {
+        width: 200px;
 
 				a {
-					padding-left: 10px;
+					padding: 3px 10px;
 					border-right: 0;
 					display: block;
-					width: 180px;
-					border-bottom: 3px solid $hfh-blue;
+					width: 200px;
 
 					&:hover,
-					&:focus {}
+					&:focus {
+					  color: $light-green;
+					}
 
 					&:link {}
 				}
@@ -111,8 +115,9 @@ NAVIGATION STYLES
 			li.current-menu-item,
 			li.current_page_item,
 			li.current-page-ancestor {
-				a {
-				  border-bottom: 3px solid $hfh-green;
+				 a {
+				  color: $dark-green;
+				  border-bottom: none;
 				}
 			}
 		}
@@ -129,7 +134,9 @@ NAVIGATION STYLES
 	li.current-menu-item,
 	li.current_page_item,
 	li.current-page-ancestor {
-		a {}
+		> a {
+		  border-bottom: 3px solid $hfh-green;
+		}
 	}  /* end current highlighters */
 
 } /* end .nav */
@@ -139,7 +146,7 @@ SIDEBARS & ASIDES
 *********************/
 
 .sidebar {
-	margin-top: 2.2em;
+  
 }
 
 	.widgettitle {
@@ -149,7 +156,7 @@ SIDEBARS & ASIDES
 
 	.widget {
 		padding: 0 10px;
-		margin: 2.2em 0;
+		margin: 0 0 2.5em 0;
 
 		ul {
 			li {

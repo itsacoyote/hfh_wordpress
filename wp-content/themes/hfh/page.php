@@ -3,8 +3,14 @@
 			<div id="content">
 			
 				<div id="inner-content" class="wrap clearfix">
-			
-				    <div id="main" class="eightcol first clearfix" role="main">
+			      <div id="content-options" class="clearfix">
+			        <?php if ( function_exists('yoast_breadcrumb') ) {
+              yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+              } ?>
+			        <a href="javascript:window.print()" id="print-button">Print this Article</a>
+			        <a href="" id="email-button">Email this Article</a>
+			      </div>
+				    <div id="main" class="eightcol last clearfix" role="main">
 
 					    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
@@ -13,9 +19,6 @@
 						    <header class="article-header">
 							
 							    <h1 class="page-title" itemprop="headline"><?php the_title(); ?></h1>
-							
-							    <p class="byline vcard"><?php _e("Posted", "bonestheme"); ?> <time class="updated" datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php the_time('F jS, Y'); ?></time> <?php _e("by", "bonestheme"); ?> <span class="author"><?php the_author_posts_link(); ?></span>.</p>
-						
 						    </header> <!-- end article header -->
 					
 						    <section class="entry-content clearfix" itemprop="articleBody">
@@ -27,8 +30,6 @@
 							    <?php the_tags('<p class="tags"><span class="tags-title">Tags:</span> ', ', ', '</p>'); ?>
 							
 						    </footer> <!-- end article footer -->
-						    
-						    <?php comments_template(); ?>
 					
 					    </article> <!-- end article -->
 					
@@ -47,10 +48,10 @@
     					    </article>
 					
 					    <?php endif; ?>
-			
+						  
     				</div> <!-- end #main -->
-    
-				    <?php get_sidebar(); ?>
+    				
+    				<?php get_sidebar(); ?>
 				    
 				</div> <!-- end #inner-content -->
     

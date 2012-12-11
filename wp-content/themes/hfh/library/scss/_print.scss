@@ -10,8 +10,6 @@ though, go for it.
 
 ******************************************************************/
 
-
-
   * {
     background: transparent !important;
     color: black !important;
@@ -71,12 +69,23 @@ though, go for it.
     h3 {
       page-break-after: avoid;
     }
+    
+    #logo {
+      font-size: 18px;
+      font-weight: bold;
+      display: block;
+      
+      a {
+        display: inline;
+      }
+    }
 
     // hide content people who print don't need to see
     .sidebar,
     .page-navigation,
     .wp-prev-next,
     .respond-form,
+    .footer,
     nav {
       display: none;
     }

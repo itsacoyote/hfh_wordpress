@@ -158,9 +158,13 @@ HEADER SYTLES
 	#logo {
 	  font-size: 0px;
 	  line-height: 0px;
-	  background: url(../images/hiring-for-hope-logo.png) top left no-repeat;
-	  width: 267px;
-	  height: 120px;
+	  
+	  a {
+	    display: block;
+	    background: url(../images/hiring-for-hope-logo.png) top left no-repeat;
+  	  width: 267px;
+  	  height: 120px;
+    }
 	}
 
 /*********************
@@ -176,10 +180,12 @@ and more scalable.
 */
 
 .nav {
+  
+  margin: 0;
 
 	li {
 
-		a {
+		> a {
 			display: block;
 			text-decoration: none;
 			padding: 5px 15px 0px 15px;
@@ -193,7 +199,7 @@ and more scalable.
 			keep this file as small as possible!
 			*/
 			&:hover, &:focus {
-
+        color: $light-green;
 			}
 		}
 
@@ -236,15 +242,33 @@ and more scalable.
 	/* highlight current page */
 	li.current-menu-item,
 	li.current_page_item,
-	li.current-page-ancestor {
+	li.current-page-ancestor,
+	li.current_page_parent {
 
-		a {
+		> a {
 		  border-bottom: 3px solid $hfh-green;
+		}
+		
+		ul.sub-menu,
+		ul.children a {
+		  color: $dark-green;
 		}
 
 	}  /* end current highlighters */
 
 } /* end .nav */
+
+/********************
+YOAST BREADCRUMBS
+********************/
+#breadcrumbs {
+  margin: 0;
+  margin-left: 10px;
+  display: inline-block;
+  float: left;
+  font-size: 13px;
+  font-family: $sans-serif;
+}
 
 
 /*********************
@@ -252,9 +276,33 @@ POSTS & CONTENT STYLES
 *********************/
 
 #content {
-	margin-top: 2.2em;
+	margin-top: .2em;
 }
 
+#content-options {
+  margin-top: 5px;
+  
+  #email-button {
+    margin-right: 10px;
+    font-size: 0;
+    line-height: 0;
+    width: 65px;
+    height: 20px;
+    display: block;
+    background: url(../images/button.email.png) top left no-repeat;
+    float: right;
+  }
+  
+  #print-button {
+    font-size: 0;
+    line-height: 0;
+    width: 65px;
+    height: 20px;
+    display: block;
+    background: url(../images/button.print.png) top left no-repeat;
+    float: right;
+  }
+}
 		.hentry {
 
 			header {}
@@ -264,11 +312,16 @@ POSTS & CONTENT STYLES
 		} /* end .hentry */
 
 		.single-title,
-		.page-title {}
+		.page-title {
+		  font-family: $stoke;
+		  color: $light-green;
+		}
 
 		.single-title {}
 
-		.page-title {}
+		.page-title {
+		  margin: 0;
+		}
 
 		.archive-title { }
 
@@ -788,7 +841,8 @@ COMMENT FORM STYLES
 SIDEBARS & ASIDES
 *********************/
 
-.sidebar {}
+.sidebar {
+}
 
 	.widgettitle {}
 
@@ -819,6 +873,8 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
+	background: $hfh-blue;
+  font-family: $sans-serif;
 }
 
 	/*
@@ -840,6 +896,24 @@ FOOTER STYLES
 
 	} /* end .footer-links */
 
+  #footer1 .footer-widget {
+    margin: 0 10px;
+  }
 
-	.copyright {}
+	.copyright {
+	  font-size: 12px;
+	  text-align: center;
+	  margin-bottom: 0px;
+	}
+	
+	#charity-footer {
+	  font-size: 12px;
+	  background: $hfh-green;
+	  
+	  .charity-info {
+	    color: $hfh-blue;
+	    text-align: center;
+	    margin: 0;
+    }
+	}
 
