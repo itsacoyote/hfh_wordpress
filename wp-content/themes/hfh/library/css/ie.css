@@ -439,9 +439,11 @@ NAVIGATION STYLES
   z-index: 8999;
   margin: 0;
   background: #101b25;
+  -webkit-box-shadow: 3px 3px 9px 0px #000;
+  box-shadow: 3px 3px 9px 0px #000;
   /* highlight sub-menu current page */
 }
-/* line 80, ../scss/_768up.scss */
+/* line 82, ../scss/_768up.scss */
 .nav li ul.sub-menu li,
 .nav li ul.children li {
   width: 200px;
@@ -451,7 +453,7 @@ NAVIGATION STYLES
   for usability. k, bai.
   */
 }
-/* line 83, ../scss/_768up.scss */
+/* line 85, ../scss/_768up.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding: 3px 10px;
@@ -459,18 +461,19 @@ NAVIGATION STYLES
   display: block;
   width: 200px;
 }
-/* line 90, ../scss/_768up.scss */
+/* line 92, ../scss/_768up.scss */
 .nav li ul.sub-menu li a:hover, .nav li ul.sub-menu li a:focus,
 .nav li ul.children li a:hover,
 .nav li ul.children li a:focus {
   color: #a4d846;
+  border: none;
 }
-/* line 101, ../scss/_768up.scss */
+/* line 104, ../scss/_768up.scss */
 .nav li ul.sub-menu li:last-child a,
 .nav li ul.children li:last-child a {
   border-bottom: 0;
 }
-/* line 118, ../scss/_768up.scss */
+/* line 121, ../scss/_768up.scss */
 .nav li ul.sub-menu li.current-menu-item a,
 .nav li ul.sub-menu li.current_page_item a,
 .nav li ul.sub-menu li.current-page-ancestor a,
@@ -478,14 +481,13 @@ NAVIGATION STYLES
 .nav li ul.children li.current_page_item a,
 .nav li ul.children li.current-page-ancestor a {
   color: #639135;
-  border-bottom: none;
 }
-/* line 126, ../scss/_768up.scss */
+/* line 128, ../scss/_768up.scss */
 .nav li:hover ul {
   top: auto;
   display: block;
 }
-/* line 137, ../scss/_768up.scss */
+/* line 139, ../scss/_768up.scss */
 .nav li.current-menu-item > a,
 .nav li.current_page_item > a,
 .nav li.current-page-ancestor > a {
@@ -496,23 +498,23 @@ NAVIGATION STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 152, ../scss/_768up.scss */
+/* line 154, ../scss/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 157, ../scss/_768up.scss */
+/* line 159, ../scss/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 0 0 2.5em 0;
 }
-/* line 162, ../scss/_768up.scss */
+/* line 164, ../scss/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 170, ../scss/_768up.scss */
+/* line 172, ../scss/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -537,7 +539,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 278, ../scss/_768up.scss */
+/* line 280, ../scss/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.

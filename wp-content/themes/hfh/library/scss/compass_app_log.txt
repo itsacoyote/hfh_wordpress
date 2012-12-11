@@ -184,3 +184,80 @@
 2012-12-11 16:44:20 overwrite ../css/ie.css 
 2012-12-11 16:44:21 overwrite ../css/style.css 
 2012-12-11 16:45:02 overwrite ../css/style.css 
+2012-12-11 16:57:04 overwrite ../css/style.css 
+2012-12-11 16:57:10 overwrite ../css/style.css 
+2012-12-11 16:59:05 overwrite ../css/ie.css 
+2012-12-11 16:59:06 overwrite ../css/style.css 
+2012-12-11 16:59:31 overwrite ../css/ie.css 
+2012-12-11 16:59:31 overwrite ../css/style.css 
+2012-12-11 16:59:40 overwrite ../css/ie.css 
+2012-12-11 16:59:40 overwrite ../css/style.css 
+2012-12-11 17:00:01 overwrite ../css/ie.css 
+2012-12-11 17:00:01 overwrite ../css/style.css 
+2012-12-11 17:00:06 overwrite ../css/ie.css 
+2012-12-11 17:00:06 overwrite ../css/style.css 
+2012-12-11 17:00:09 identical ../css/ie.css 
+2012-12-11 17:00:09 identical ../css/style.css 
+2012-12-11 17:00:31 overwrite ../css/ie.css 
+2012-12-11 17:00:31 overwrite ../css/style.css 
+2012-12-11 17:00:44 overwrite ../css/ie.css 
+2012-12-11 17:00:44 overwrite ../css/style.css 
+2012-12-11 17:00:47 overwrite ../css/ie.css 
+2012-12-11 17:00:47 overwrite ../css/style.css 
+2012-12-11 17:00:50 overwrite ../css/ie.css 
+2012-12-11 17:00:50 overwrite ../css/style.css 
+2012-12-11 17:01:28 overwrite ../css/ie.css 
+2012-12-11 17:01:29 overwrite ../css/style.css 
+2012-12-11 17:01:45 overwrite ../css/ie.css 
+2012-12-11 17:01:46 overwrite ../css/style.css 
+2012-12-11 17:01:58 overwrite ../css/ie.css 
+2012-12-11 17:01:58 overwrite ../css/style.css 
+2012-12-11 17:02:10 overwrite ../css/ie.css 
+2012-12-11 17:02:10 overwrite ../css/style.css 
+2012-12-11 17:02:22 overwrite ../css/ie.css 
+2012-12-11 17:02:22 overwrite ../css/style.css 
+2012-12-11 17:03:30     error ie.scss (Line 92 of _768up.scss: Invalid CSS after "...der: 3px solid ": expected ";", was "#hfh-green;;")
+2012-12-11 17:03:30 overwrite ../css/ie.css 
+2012-12-11 17:03:31     error style.scss (Line 92 of _768up.scss: Invalid CSS after "...der: 3px solid ": expected ";", was "#hfh-green;")
+2012-12-11 17:03:31 overwrite ../css/style.css 
+2012-12-11 17:03:32     error ie.scss (Line 92 of _768up.scss: Invalid CSS after "...der: 3px solid ": expected ";", was "#hfh-green;")
+2012-12-11 17:03:32 overwrite ../css/ie.css 
+2012-12-11 17:03:34     error style.scss (Line 92 of _768up.scss: Invalid CSS after "...der: 3px solid ": expected ";", was "#hfh-green;")
+2012-12-11 17:03:34 identical ../css/style.css 
+2012-12-11 17:03:44 overwrite ../css/ie.css 
+2012-12-11 17:03:45 overwrite ../css/style.css 
+2012-12-11 17:03:59     error ie.scss (Line 93 of _768up.scss: Invalid CSS after "...  border-bottom": expected "{", was ";: 3px solid $h...")
+2012-12-11 17:03:59 overwrite ../css/ie.css 
+2012-12-11 17:03:59 overwrite ../css/style.css 
+2012-12-11 17:04:40 overwrite ../css/ie.css 
+2012-12-11 17:04:40 overwrite ../css/style.css 
+2012-12-11 17:05:32 overwrite ../css/ie.css 
+2012-12-11 17:05:33 overwrite ../css/style.css 
+2012-12-11 17:05:47 overwrite ../css/ie.css 
+2012-12-11 17:05:48 overwrite ../css/style.css 
+2012-12-11 17:07:27 overwrite ../css/ie.css 
+2012-12-11 17:07:28 overwrite ../css/style.css 
+2012-12-11 17:07:40 overwrite ../css/ie.css 
+2012-12-11 17:08:30 overwrite ../css/ie.css 
+2012-12-11 17:08:30 overwrite ../css/style.css 
+2012-12-11 17:12:53 overwrite ../css/style.css 
+2012-12-11 17:13:08 overwrite ../css/style.css 
+2012-12-11 17:13:20     error style.scss (Line 931 of _base.scss: Invalid CSS after "	}": expected "}", was "")
+2012-12-11 17:13:20 overwrite ../css/style.css 
+2012-12-11 17:13:30     error style.scss (Line 932 of _base.scss: Invalid CSS after "	}": expected "}", was "")
+2012-12-11 17:13:30 overwrite ../css/style.css 
+2012-12-11 17:13:34     error style.scss (Line 932 of _base.scss: Invalid CSS after "	}": expected "}", was "")
+2012-12-11 17:13:34 overwrite ../css/style.css 
+2012-12-11 17:13:40 overwrite ../css/style.css 
+2012-12-11 17:13:54 overwrite ../css/style.css 
+2012-12-11 17:14:00 overwrite ../css/style.css 
+2012-12-11 17:14:25 identical ../css/ie.css 
+2012-12-11 17:14:25 identical ../css/style.css 
+2012-12-11 17:14:52 overwrite ../css/style.css 
+2012-12-11 17:15:20 overwrite ../css/style.css 
+2012-12-11 17:15:31 overwrite ../css/style.css 
+2012-12-11 17:16:38 overwrite ../css/style.css 
+2012-12-11 17:16:41 overwrite ../css/style.css 
+2012-12-11 17:17:09 overwrite ../css/style.css 
+2012-12-11 17:17:34 overwrite ../css/style.css 
+2012-12-11 17:18:15 overwrite ../css/style.css 

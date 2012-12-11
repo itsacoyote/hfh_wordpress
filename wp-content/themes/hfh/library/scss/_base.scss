@@ -270,7 +270,31 @@ YOAST BREADCRUMBS
   font-family: $sans-serif;
 }
 
+/*********************
+SIDEBAR SUB LINKS
+*********************/
+.widget_sb_cl_pages_widget {
+  ul {
+    li {
+      margin: 0 !important;
+      
+      a {
+        color: $white;
+        font-family: $sans-serif;
+        padding: 4px 0;
+        text-decoration: none;
+        font-weight: bold;
+        border-bottom: 1px solid #444444;
+        display: block;
 
+        &:hover,
+        &:focus {
+         color: $light-green; 
+        }
+      }
+    }
+  }
+}
 /*********************
 POSTS & CONTENT STYLES
 *********************/
@@ -291,6 +315,10 @@ POSTS & CONTENT STYLES
     display: block;
     background: url(../images/button.email.png) top left no-repeat;
     float: right;
+    /******
+    hidden until functionality completed
+    ******/
+    display: none;
   }
   
   #print-button {
