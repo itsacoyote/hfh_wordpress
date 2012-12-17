@@ -324,3 +324,45 @@
 2012-12-12 18:04:55 overwrite ../css/ie.css 
 2012-12-12 18:04:56 overwrite ../css/style.css 
 2012-12-12 18:04:57 identical ../css/ie.css 
+2012-12-17 16:38:22 overwrite ../css/style.css 
+2012-12-17 16:39:41 overwrite ../css/style.css 
+2012-12-17 16:40:50 overwrite ../css/style.css 
+2012-12-17 16:41:44 overwrite ../css/style.css 
+2012-12-17 16:41:57 overwrite ../css/style.css 
+2012-12-17 16:42:26 overwrite ../css/style.css 
+2012-12-17 16:42:44 overwrite ../css/style.css 
+2012-12-17 16:43:34 overwrite ../css/style.css 
+2012-12-17 16:46:04 overwrite ../css/style.css 
+2012-12-17 16:46:22 overwrite ../css/style.css 
+2012-12-17 16:47:18 overwrite ../css/style.css 
+2012-12-17 16:51:40     error style.scss (Line 517 of _normalize.scss: Undefined variable: "$light-green".)
+2012-12-17 16:51:40 overwrite ../css/style.css 
+2012-12-17 16:52:01 overwrite ../css/style.css 
+2012-12-17 16:52:30 overwrite ../css/style.css 
+2012-12-17 16:52:42     error style.scss (Line 537 of _normalize.scss: Invalid CSS after "}": expected "}", was "")
+2012-12-17 16:52:42 overwrite ../css/style.css 
+2012-12-17 16:54:07 overwrite ../css/style.css 
+2012-12-17 16:54:50 overwrite ../css/style.css 
+2012-12-17 16:55:31     error style.scss (Line 473 of _base.scss: Undefined variable: "$hfh-navy".)
+2012-12-17 16:55:31 overwrite ../css/style.css 
+2012-12-17 16:55:51     error style.scss (Line 473 of _base.scss: Undefined variable: "$hfh-navy".)
+2012-12-17 16:55:51 identical ../css/style.css 
+2012-12-17 16:56:08 overwrite ../css/style.css 
+2012-12-17 16:56:24 overwrite ../css/style.css 
+2012-12-17 16:56:47 overwrite ../css/style.css 
+2012-12-17 16:57:19 overwrite ../css/style.css 
+2012-12-17 16:59:07 overwrite ../css/style.css 
+2012-12-17 16:59:31 overwrite ../css/style.css 
+2012-12-17 17:00:27     error style.scss (Line 477 of _base.scss: Invalid CSS after "				  content: """: expected ";", was "";")
+2012-12-17 17:00:27 overwrite ../css/style.css 
+2012-12-17 17:00:33     error style.scss (Line 477 of _base.scss: Invalid CSS after "				  content: """: expected ";", was "";")
+2012-12-17 17:00:33 overwrite ../css/style.css 
+2012-12-17 17:00:37 overwrite ../css/style.css 
+2012-12-17 17:00:49 overwrite ../css/style.css 
+2012-12-17 17:01:15 overwrite ../css/style.css 
+2012-12-17 17:01:21 overwrite ../css/style.css 
+2012-12-17 17:01:37 overwrite ../css/style.css 
+2012-12-17 17:03:07 overwrite ../css/style.css 
+2012-12-17 17:04:24     error style.scss (Line 371 of _base.scss: Invalid CSS after "...pages_widget a.": expected class name, was ".sb_cl_current_...")
+2012-12-17 17:04:24 overwrite ../css/style.css 
+2012-12-17 17:06:59 overwrite ../css/style.css 

@@ -101,6 +101,10 @@ a, a:visited {
 	}
 }
 
+img.tan {
+  border: 5px solid $neutral-tan;
+}
+
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
@@ -295,6 +299,9 @@ SLIDESHOW
     padding: 0;
     top: auto;
   }
+  div.nivoSlider {
+    height: 415px;
+  }
   .messageBox {
     background: $hfh-blue;
     border: 3px solid $neutral-tan;
@@ -360,6 +367,9 @@ SIDEBAR SUB LINKS
       }
     }
   }
+}
+.widget_sb_cl_pages_widget a.sb_cl_current_page {
+  color: $light-green;
 }
 /*********************
 POSTS & CONTENT STYLES
@@ -463,8 +473,11 @@ POSTS & CONTENT STYLES
 			}
 
 			blockquote {
+			  padding: .1em 1em;
+			  background: $hfh-blue;
 
-				&:before {}
+				&:before {
+				}
 
 			}
 
@@ -480,9 +493,10 @@ POSTS & CONTENT STYLES
 			}
 
 			img {
-				margin: 0 0 1.5em 0;
+				margin: .75em;
 				max-width: 100%;
 				height: auto;
+				border: 5px solid $neutral-tan;
 			}
 
 			/*
@@ -509,12 +523,12 @@ POSTS & CONTENT STYLES
 		} /* end .entry-content */
 
 		.wp-caption {
-			background: #eee;
+			background: $hfh-blue;
 			padding: 5px;
 
 			/* images inside wp-caption */
 			img {
-				margin-bottom: 0;
+				margin: 0;
 				width: 100%;
 			}
 
@@ -583,7 +597,7 @@ PAGE NAVI STYLES
 		/* current page link */
 		li.bpn-current {
 			padding: 3px 6px;
-			border-bottom: 2px solid #f01d4f;
+			border-bottom: 2px solid $light-green;
 			position: relative;
 
 			a {
@@ -783,7 +797,8 @@ COMMENT STYLES
 
 		}
 
-		img.photo {}
+		img.photo {
+		}
 
 		img.avatar {
 			position: absolute;

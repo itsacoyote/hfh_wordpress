@@ -44,21 +44,25 @@ Template Name: Homepage Custom
               <div class="whoweserve twelvecol clearfix">
                 <h1>Who We Serve</h1>
                 <div class="threecol first">
+                  <img src="http://localhost/hfh_wordpress/wp-content/uploads/2012/12/couples.png" alt="Couples" class="tan" />
                   <h2>Couples</h2>
                   <p>Anyone who has experienced the loss of a child and/or is experiencing an obstacle to building their family.</p>
                   <a href="#">Learn More</a>
                 </div>
                 <div class="threecol">
+                  <img src="http://localhost/hfh_wordpress/wp-content/uploads/2012/12/job-seekers.png" alt="Job Seekers" class="tan" />
                   <h2>Job Seekers</h2>
                   <p>Anyone needing assistance with the career management process.</p>
                   <a href="#">Learn More</a>
                 </div>
                 <div class="threecol">
+                  <img src="http://localhost/hfh_wordpress/wp-content/uploads/2012/12/friends-family.png" alt="Friends and Family" class="tan" />
                   <h2>Friends/Family</h2>
                     <p>Anyone supporting a loved one who has lost a child; is experiencing an obstacle to building their family and/or is in career transition.</p>
                     <a href="#">Learn More</a>
                 </div>
                 <div class="threecol last">
+                  <img src="http://localhost/hfh_wordpress/wp-content/uploads/2012/12/employers.png" alt="Employers and Partners" class="tan" />
                   <h2>Employers/Partners</h2>
                     <p>Any organization who has a workforce challenge and/or would like to become a business partner</p>
                     <a href="#">Learn More</a>
